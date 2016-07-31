@@ -6,7 +6,8 @@ object SqlUtils {
     * the loan pattern */
   def usingConnection[T](
     db:String,
-    host:String="127.0.0.1",
+    //host:String="127.0.0.1",
+    host:String="192.168.99.100",
     user:String="root",
     password:String="",
     port:Int=3306
